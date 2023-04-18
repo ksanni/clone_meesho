@@ -1,0 +1,142 @@
+.ProductDetailsBody{
+    width:1106px;
+    height: 746px;
+    display: flex;
+    margin-left: 139px;
+    margin-top: 45px;
+
+}
+
+.detailsList1{
+    height:671px;
+    width: 1195px;
+   
+}
+.product_img{
+    margin: 0px 12px;
+}
+.product_img img{
+  
+    height: 115px;
+    width: 225px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    width: 100%;
+}
+.buttons button {
+    height: 49px;
+    margin-right: 149px;
+    width: 124px;
+    text-align: center;
+    border: none;
+   background-color:  rgb(244, 51, 151);
+    color: #ffff;
+    cursor: pointer;
+}
+.buttons button a{
+    text-decoration: none;
+
+}
+.detailsList2{
+    margin-left: 134px;
+}
+.detailsList2 .productCategory{
+    margin: 24px 0px;
+    color: rgb(153, 153, 153);
+    font-size: 26px;
+    text-transform: uppercase;
+
+}
+.detailsList2 .productTitle{
+    font-size: 51px;
+    margin-top: 49px;
+    line-height: initial;
+}
+.detailsList2 .prdouctRating{
+    margin-top: 36px;
+    margin-left: 12px;
+    color: rgb(153, 153, 153);
+
+}
+.productPrice{
+    font-size: 54px;
+    margin-top: 77px;
+    font-weight: 600;
+}
+.productDesc{
+    margin-top: 89px;
+    font-size: 17px;
+    color: rgb(153, 153, 153);
+
+}
+
+/* ** image stylish css** */
+
+/*
+ * Preparing stage
+ */
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+/*
+ * Start
+ */
+.glassBox {
+  width: 100%;
+  height: 300px;
+  max-width: 300px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-right-color: rgba(255, 255, 255, 0.1);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.glassBox, .glassBox * {
+  box-sizing: border-box;
+  transition: 400ms;
+}
+.glassBox__imgBox img {
+  display: block;
+  width: 100%;
+  height: 211px;
+  padding-top: 23px;
+}
+.glassBox__title {
+  text-align: center;
+  margin-top: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Lato";
+}
+.glassBox__content {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Lato";
+  letter-spacing: 0.1em;
+  opacity: 0;
+}
+.glassBox:hover .glassBox__imgBox {
+  transform: translateY(-20px);
+}
+.glassBox:hover .glassBox__imgBox img {
+  transform: translate(-10px, -20px) rotate(-1deg) scale(1.2);
+}
