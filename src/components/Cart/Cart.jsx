@@ -73,9 +73,9 @@ console.log("incart"+products);
         return (
             <>
             <ToastContainer/>
+                        <h4 className='headingCart'>Shopping-Cart</h4>
                 <div className="container">
                     <div className="section1">
-                        <h4 className='headingCart'>Shopping-Cart</h4>
                         {cartItems.map((data,index) => {
                             return (
                             <>

@@ -1,23 +1,27 @@
+
+.headingCart{
+    font-size: 23px;
+    font-weight: 700;
+    position: relative;
+    top: 88px;
+    left: 168px;
+}
 .container{
     width: 1328px;
     height: 521px;
     display: flex;
-    justify-content:center;
+    justify-content:space-evenly;
     margin-left: 12px;
-    margin-top: 75px;
+    margin-top: 115px;
     
     
 }
 .section1{
     width: 534px;
     height: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
-.headingCart{
-    font-size: 23px;
-    font-weight: 700;
-    margin-bottom: 14px;
-}
+
 
 .section2{
     width: 322px;
@@ -90,6 +94,11 @@
    background-color:  rgb(244, 51, 151);
 
 }
+.buyRemove button:hover{
+    background-color:rgba(137, 43, 226, 0.822);
+    color: #ffff;
+  
+}
 .priceDetails h4{
     font-size: 23px;
 }
@@ -113,8 +122,11 @@
     height: 45px;
     margin-top: 43px;
    background-color:  rgb(244, 51, 151);
+}
+.priceDetails button:hover{
+    background-color:rgba(137, 43, 226, 0.822);
+    color: #ffff;
    
-
 }
 .emptyCard{
   position: relative;

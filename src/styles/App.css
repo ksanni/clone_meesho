@@ -10,6 +10,9 @@
     color: rgb(64, 63, 63);
     /* background-color: #fff; */
 }
+body{
+    overflow-x: hidden;
+}
 /* navbar1 css start */
 
 /* navbar1 css end  */

@@ -9,7 +9,6 @@ import Footer from './Footer/Footer';
 import Navbar1 from './Navbar/Navbar1';
 import Navbar2 from './Navbar/Navbar2';
 import ProductItem from './Product/ProductItem';
-import Profile from './Profile/Profile';
 
 const Home = () => {
   
@@ -26,7 +25,7 @@ const Home = () => {
       <Categories4Modal/>
       <ProductItem/>
       <Footer/>
-      <Profile/>
+    
       
     </>
   )
